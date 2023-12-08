@@ -12,12 +12,12 @@ function App() {
   return (
     <div className="App">
       <Poster>
-    <Router>
+    <Router >
       <Routes>
-        <Route path='/' element={<SignUp/>}/>
-        <Route path='/Netflix.com' element={<SignUp/>}/>
+        <Route path='/netflix.com' element={<SignUp/>}  />
+        
         <Route path='/signup' element={<Login/>}/>
-        <Route path='/netflix.com' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
         <Route path='/signin' element={<Lock/>}/>
         <Route path='/teaser' element={<Teaser/>}/>
         <Route path='/Bteaser' element={<BannerTrailer/>}/>
